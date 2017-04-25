@@ -7,3 +7,7 @@
 **/.settings
 **/.springBeans
 **/target
+
+.idea
+**/.idea
+*.iml
