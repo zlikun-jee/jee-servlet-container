@@ -1,5 +1,6 @@
 package com.zlikun.sc;
 
+import com.zlikun.sc.handler.HelloHandler;
 import org.eclipse.jetty.server.Request;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.server.handler.AbstractHandler;
@@ -24,22 +25,7 @@ public class ServerTest {
     public void start() throws Exception {
 
         Server server = new Server(8080) ;
-        server.setHandler(new AbstractHandler() {
-            @Override
-            public void handle(String s, Request baseRequest, HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-                // Declare response encoding and types
-                response.setContentType("text/html; charset=utf-8");
-
-                // Declare response status code
-                response.setStatus(HttpServletResponse.SC_OK);
-
-                // Write back response
-                response.getWriter().println("<h1>Hello World</h1>");
-
-                // Inform jetty that this request has now been handled
-                baseRequest.setHandled(true);
-            }
-        });
+        server.setHandler(new HelloHandler());
 
         server.start();
         server.join();
