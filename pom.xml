@@ -9,7 +9,7 @@
 	<modules>
         <module>zlikun-servlet-container-jetty-9.2.x-embedded</module>
 		<module>zlikun-servlet-container-undertow-1.4.x-embedded</module>
-		<module>zlikun-servlet-container-tomcat-8.5.x</module>
+		<module>zlikun-servlet-container-tomcat7-maven-plugin</module>
     </modules>
 
 	<properties>

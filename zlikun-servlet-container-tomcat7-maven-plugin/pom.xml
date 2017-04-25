@@ -6,7 +6,7 @@
         <artifactId>zlikun-servlet-container</artifactId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>zlikun-servlet-container-tomcat-8.5.x</artifactId>
+    <artifactId>zlikun-servlet-container-tomcat7-maven-plugin</artifactId>
     <packaging>war</packaging>
 
     <dependencies>
