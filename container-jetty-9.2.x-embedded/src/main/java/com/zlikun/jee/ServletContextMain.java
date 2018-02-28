@@ -1,7 +1,7 @@
-package com.zlikun.sc;
+package com.zlikun.jee;
 
-import com.zlikun.sc.servlet.HelloServlet;
-import com.zlikun.sc.servlet.NotFoundServlet;
+import com.zlikun.jee.servlet.HelloServlet;
+import com.zlikun.jee.servlet.NotFoundServlet;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 

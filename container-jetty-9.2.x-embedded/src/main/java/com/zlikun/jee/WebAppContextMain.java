@@ -1,4 +1,4 @@
-package com.zlikun.sc;
+package com.zlikun.jee;
 
 import org.eclipse.jetty.jmx.MBeanContainer;
 import org.eclipse.jetty.server.Server;

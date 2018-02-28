@@ -1,4 +1,4 @@
-package com.zlikun.sc;
+package com.zlikun.jee;
 
 import com.zlikun.sc.handler.HelloHandler;
 import org.eclipse.jetty.server.Server;

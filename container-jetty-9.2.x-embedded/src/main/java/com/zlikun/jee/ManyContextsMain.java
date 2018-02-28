@@ -1,6 +1,6 @@
-package com.zlikun.sc;
+package com.zlikun.jee;
 
-import com.zlikun.sc.handler.HelloHandler;
+import com.zlikun.jee.handler.HelloHandler;
 import org.eclipse.jetty.server.Handler;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.server.handler.ContextHandler;

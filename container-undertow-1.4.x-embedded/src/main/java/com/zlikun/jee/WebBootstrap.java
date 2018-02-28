@@ -1,4 +1,4 @@
-package com.zlikun.sc;
+package com.zlikun.jee;
 
 import io.undertow.Undertow;
 import io.undertow.server.HttpHandler;
@@ -10,7 +10,7 @@ import io.undertow.util.Protocols;
  * @auther zlikun <zlikun-dev@hotmail.com>
  * @date 2017/4/25 13:52
  */
-public class Main {
+public class WebBootstrap {
 
     public static void main(String[] args) {
 
