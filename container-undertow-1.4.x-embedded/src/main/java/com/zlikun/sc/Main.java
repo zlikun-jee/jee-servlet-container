@@ -3,7 +3,6 @@ package com.zlikun.sc;
 import io.undertow.Undertow;
 import io.undertow.server.HttpHandler;
 import io.undertow.server.HttpServerExchange;
-import io.undertow.servlet.spec.HttpServletResponseImpl;
 import io.undertow.util.Headers;
 import io.undertow.util.Protocols;
 

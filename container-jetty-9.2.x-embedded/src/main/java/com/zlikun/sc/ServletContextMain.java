@@ -3,7 +3,6 @@ package com.zlikun.sc;
 import com.zlikun.sc.servlet.HelloServlet;
 import com.zlikun.sc.servlet.NotFoundServlet;
 import org.eclipse.jetty.server.Server;
-import org.eclipse.jetty.servlet.DefaultServlet;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 
 /**
