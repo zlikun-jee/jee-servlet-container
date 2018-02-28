@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>jee-servlet-container</artifactId>
+        <groupId>com.zlikun.jee</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <artifactId>container-undertow-2.0.x-embedded</artifactId>
+
+    <properties>
+        <undertow.version>2.0.0.Final</undertow.version>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>io.undertow</groupId>
+            <artifactId>undertow-core</artifactId>
+            <version>${undertow.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.undertow</groupId>
+            <artifactId>undertow-servlet</artifactId>
+            <version>${undertow.version}</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

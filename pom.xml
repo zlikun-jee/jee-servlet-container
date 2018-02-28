@@ -11,6 +11,7 @@
         <module>container-undertow-1.4.x-embedded</module>
         <module>container-tomcat7-maven-plugin</module>
         <module>container-jetty-9.4.x-embedded</module>
+        <module>container-undertow-2.0.x-embedded</module>
     </modules>
 
     <properties>
